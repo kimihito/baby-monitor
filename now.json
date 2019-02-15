@@ -1,0 +1,9 @@
+
+{
+  "version": 2,
+  "name": "baby-monitor",
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build"}
+  ]
+
+}
