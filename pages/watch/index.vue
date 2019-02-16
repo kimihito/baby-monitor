@@ -42,7 +42,7 @@ export default {
     this.video = this.$refs.video
     this.peer = new Peer({ key: process.env.SKYWAY_KEY, debug: 3 })
     this.peer.on('open', () => {
-      this.room = this.peer.joinRoom(process.env.ROOM_NAME)
+      this.room = this.peer.joinRoom(process.env.MONITOR_ROOM_NAME)
       this.room.on('stream', stream => {
         this.video.srcObject = stream
         this.video.play()
@@ -55,6 +55,7 @@ export default {
   },
 
   beforeDestroy() {
+    this.video.stop()
     if (this.room) {
       this.room.close()
       this.room = null

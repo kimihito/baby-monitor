@@ -50,7 +50,7 @@ export default {
         if (this.room) {
           this.room.replaceStream(stream)
         } else {
-          this.room = this.peer.joinRoom(process.env.ROOM_NAME, {
+          this.room = this.peer.joinRoom(process.env.MONITOR_ROOM_NAME, {
             stream: stream
           })
         }

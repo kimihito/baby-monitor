@@ -4,6 +4,12 @@
   "name": "baby-monitor",
   "builds": [
     { "src": "package.json", "use": "@now/static-build"}
-  ]
+  ],
 
+  "env": {
+    "SKYWAY_KEY": "@skyway-key",
+    "MONITOR_ROOM_NAME": "@monitor-room-name"
+  },
+
+  "alias": ["simple-baby-monitor"]
 }
