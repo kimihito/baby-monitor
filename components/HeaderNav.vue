@@ -1,6 +1,8 @@
 <template>
   <b-navbar toggleable="lg" type="dark" variant="info">
-    <b-navbar-brand to="/">Baby monitor</b-navbar-brand>
+    <b-navbar-brand to="/">
+      Baby monitor
+    </b-navbar-brand>
   </b-navbar>
 </template>
 
