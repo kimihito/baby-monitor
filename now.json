@@ -11,5 +11,5 @@
     "MONITOR_ROOM_NAME": "@monitor-room-name"
   },
 
-  "alias": ["simple-baby-monitor"]
+  "alias": ["simple-baby-monitor.now.sh", "baby-monitor.kimihito.net"]
 }
