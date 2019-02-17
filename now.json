@@ -8,7 +8,8 @@
 
   "env": {
     "SKYWAY_KEY": "@skyway-key",
-    "MONITOR_ROOM_NAME": "@monitor-room-name"
+    "MONITOR_ROOM_NAME": "@monitor-room-name",
+    "VERIFY_PASSWORD": "@baby-monitor-verify-password"
   },
 
   "alias": ["simple-baby-monitor.now.sh", "baby-monitor.kimihito.net"]
