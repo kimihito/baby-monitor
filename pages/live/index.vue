@@ -19,6 +19,7 @@
 import Peer from 'skyway-js'
 
 export default {
+  middleware: 'auth',
   head() {
     return {
       title: 'Live'

@@ -19,6 +19,7 @@
 import Peer from 'skyway-js'
 
 export default {
+  middleware: 'auth',
   head() {
     return {
       title: 'Watch'
@@ -55,7 +56,6 @@ export default {
   },
 
   beforeDestroy() {
-    this.video.stop()
     if (this.room) {
       this.room.close()
       this.room = null
