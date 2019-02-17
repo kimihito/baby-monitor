@@ -44,7 +44,7 @@ export default {
   },
 
   async mounted() {
-    this.peer = new Peer({ key: process.env.SKYWAY_KEY, debug: 3 })
+    this.peer = new Peer({ key: process.env.SKYWAY_KEY })
     this.video = this.$refs.video
     await navigator.mediaDevices
       .getUserMedia(this.constraints)

@@ -41,7 +41,7 @@ export default {
 
   mounted() {
     this.video = this.$refs.video
-    this.peer = new Peer({ key: process.env.SKYWAY_KEY, debug: 3 })
+    this.peer = new Peer({ key: process.env.SKYWAY_KEY })
     this.peer.on('open', () => {
       this.room = this.peer.joinRoom(process.env.MONITOR_ROOM_NAME)
       this.room.on('stream', stream => {
