@@ -33,8 +33,12 @@ export default {
       localStream: null,
       peer: null,
       constraints: {
-        video: true,
-        audito: true
+        video: {
+          facingMode: {
+            exact: 'environment'
+          }
+        },
+        audio: true
       }
     }
   },
