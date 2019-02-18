@@ -8,6 +8,7 @@
           muted
           controls
           autoplay
+          loop
           playsinline
         />
       </div>
