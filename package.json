@@ -18,7 +18,7 @@
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.11",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0",
+    "nuxt": "^2.13.1",
     "skyway-js": "^1.1.19",
     "vuex-persistedstate": "^2.5.4"
   },
