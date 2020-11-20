@@ -37,6 +37,6 @@
     "eslint-plugin-standard": ">=4.0.0",
     "eslint-plugin-vue": "^5.0.0",
     "nodemon": "^1.18.9",
-    "prettier": "1.14.3"
+    "prettier": "2.2.0"
   }
 }
